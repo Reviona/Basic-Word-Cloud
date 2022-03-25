@@ -16,12 +16,12 @@ text = ' '.join(ls)  # 连接字符串
 stopwords = stopwordslist('stopwordslist.txt')   # 停用词
 
 wc = wordcloud.WordCloud(
-    font_path="方正GDC体 简 Light.TTF",     # 设定字体
-    width=4096,     # 宽度-像素
-    height=2160,    # 高度-像素
-    background_color='white',   # 背景色
-    max_words=300,  # 最多显示的单词数量
-    stopwords=stopwords     # 停用词
+    font_path = "方正GDC体 简 Light.TTF",     # 设定字体，可以使用相对路径或绝对路径
+    width = 4096,     # 宽度-像素
+    height = 2160,    # 高度-像素
+    background_color = 'white',   # 背景色
+    max_words = 250,  # 最多显示的单词数量
+    stopwords = stopwords     # 停用词
     )
 
 wc.generate(text)  # 加载文本
