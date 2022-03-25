@@ -15,5 +15,7 @@ ATTENTION: 默认字体为"方正GDC体 简 Light", 该字体为付费字体，�
 ![avatar](result.png)
 
 ### v0.2
+Better English stoplists.  
 
+###
 
